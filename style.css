@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Kumbh+Sans:wght@400;700&family=Montserrat:ital,wght@1,500;1,700&family=Open+Sans&family=Outfit:wght@300;400;600&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+:root{
+    --orange: hsl(26, 100%, 55%);
+    --pale-orange: hsl(25, 100%, 94%);
+    --very-dark-blue: hsl(220, 13%, 13%);
+    --dark-grayish-blue: hsl(219, 9%, 45%);
+    --grayish-blue: hsl(220, 14%, 75%);
+    --light-grayish-blue: hsl(223, 64%, 98%);
+    --white: hsl(0, 0%, 100%);
+    /*with 75% opacity for lightbox background*/
+    --black: hsl(0, 0%, 0%);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-list{
+    color: var(--dark-grayish-blue);
+    list-style: none;
+}
+
+h2{
+    color: orange;
+}
+
+p{
+    color: var(--dark-grayish-blue);
+}
+
+.add-button{
+    /*cart icon fehlt noch*/
+    color: white;
+    background-color: var(--orange);
+    border-radius: 18px;
+
+}
+
+
+
+
+
+
+
+
